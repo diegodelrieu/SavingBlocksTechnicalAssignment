@@ -31,6 +31,8 @@ If you have time feel free to add any of the following features
 Please to facilitate the readability of your code don't build on feature on the `master` branch and create a new one instead.
 When you are done open a Pull Request with a short description from your branch to master.
 
+Then add `diegodelrieu` as a collaborator to your github repository and add his as a reviewer for your pull request !
+
 #### Stack
 
 - React.js
