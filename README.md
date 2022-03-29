@@ -10,7 +10,7 @@ You can read below a number of informations on how to get started with this temp
 
 Start by copying this template in a private github repository.
 
-![image](https://user-images.githubusercontent.com/46749544/160630995-a7e7b779-d4d0-42d1-b57f-ddf7d1cc19f1.png)
+![image](https://user-images.githubusercontent.com/46749544/160638681-dc3d4209-d3be-4a32-a4df-16766d2a38f8.png)
 
 This template should provide you with a good foundation to complete your task.
 
