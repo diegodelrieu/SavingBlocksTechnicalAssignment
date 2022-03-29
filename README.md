@@ -2,7 +2,7 @@
 
 ### 📕 Instructions
 
-This is a boilerplate template to get your started faster on the 5% technical assignment.
+This is a boilerplate template to get you started on the 5% technical assignment.
 
 You can read below a number of informations on how to get started with this template.
 
@@ -12,14 +12,13 @@ Start by copying this template in a private github repository.
 
 ![image](https://user-images.githubusercontent.com/46749544/160630995-a7e7b779-d4d0-42d1-b57f-ddf7d1cc19f1.png)
 
-
-This template should provide you a good foundation to complete your task.
+This template should provide you with a good foundation to complete your task.
 
 For this assignment the candidate is expected to complete the following features :
 
 - As a user, I should be able to a find visual interface that allows me to connect to a blockchain (of your choice) through a crypto web wallet (you can use metamask or walletconect for instance)
 
-- As a user, I should find a form in which I am able to create a transaction on that blockchain to move funds to an address of my choice and add a note for this transaction (stored in the db allowing with the transaction hash),
+- As a user, I should find a form in which I am able to create a transaction on that blockchain to send funds to an address of my choice and add a note for this transaction (stored in the db along with the transaction hash from the blockchain)
 
 **Feel free to reuse any existing component to gain time 🏎️**
 
