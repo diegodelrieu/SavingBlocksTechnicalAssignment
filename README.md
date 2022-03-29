@@ -12,13 +12,13 @@ Start by copying this template in a private github repository.
 
 This template should provide you a good foundation to complete your task.
 
-For this assignment the candidate is expected to complete the following feature :
+For this assignment the candidate is expected to complete the following features :
 
-```
 - As a user, I should be able to a find visual interface that allows me to connect to a blockchain (of your choice) through a crypto web wallet (you can use metamask or walletconect for instance)
 
-- As a user, I should find a form in which I am able to create a transaction on that blockchain to move funds to an address of my choice and add a note for this transaction (stored in the db allowing with the transaction hash), ⚠️ **update the existing form**.
-```
+- As a user, I should find a form in which I am able to create a transaction on that blockchain to move funds to an address of my choice and add a note for this transaction (stored in the db allowing with the transaction hash),
+
+**Feel free to reuse any existing component to gain time 🏎️**
 
 **_Extra_**
 If you have time feel free to add any of the following features
