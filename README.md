@@ -14,8 +14,11 @@ This template should provide you a good foundation to complete your task.
 
 For this assignment the candidate is expected to complete the following feature :
 
+```
 - As a user, I should be able to a find visual interface that allows me to connect to a blockchain (of your choice) through a crypto web wallet (you can use metamask or walletconect for instance)
-- As a user, I should find a form in which I am able to create a transaction on that blockchain to move funds to an address of my choice and add a note for this transaction (stored in the db allowing with the transaction hash), **update the existing form**.
+
+- As a user, I should find a form in which I am able to create a transaction on that blockchain to move funds to an address of my choice and add a note for this transaction (stored in the db allowing with the transaction hash), ⚠️ **update the existing form**.
+```
 
 **_Extra_**
 If you have time feel free to add any of the following features
@@ -44,56 +47,6 @@ Make sure you have the below installed on your machine.
 - [x] **Docker** : https://docs.docker.com/engine/install/
 - [x] **Docker-Compose** : https://docs.docker.com/compose/install/
 - [x] **Node** : https://nodejs.org/en/
-
-### File strcutre
-
-```
-project-name
-    |
-    |---/ client
-            |
-            |---/ public
-            |---/ src
-            |
-            .env
-            .dockerignore
-            .gitignore
-            Dockerfile
-            Dockerfile.dev
-            nginx.conf
-            tsconfig.json
-            package.json
-    |
-    |---/ database
-            .env
-            initdb.sql
-            .gitignore
-    |---/ server
-            |
-            |---/src
-            |
-            ormconfig.json
-            .dockerignore
-            .gitignore
-            Dockerfile
-            Dockerfile.dev
-            nodemon.json
-            package.json
-            wait-for-it.sh
-    |
-    |
-    docker-compose.yml
-    docker-compose-dev.yml
-    .prettierrc
-    README.md
-```
-
-## Demo
-
-Demo is a simple Todolist using React and Material-UI on client side, nest on backend and postgres as our database
-demo can be started in development mode and in production mode as well.
-
-<img src="./demo1.png" style="box-shadow 0px 10px 10px rgba(0,0,0,0.3);" />
 
 ### Quick start
 
@@ -164,21 +117,6 @@ Volumes of our database will be located in `./server/database/data`
 > Production volume is located in `./server/data/prod` </br>
 > Development volume is located in `./server/data/dev`
 
-## Server
-
-Server is located in `./projec-name/server` using express.
-
-#### Development
-
-In development mode the server will run in a container built with `./server/Dockerfile.dev`.
-and will be exposed on port 5500 to the "outside" world, with docker volumes and nodemon, every change thats been saved will be refelected within the running container.
-
-#### Production
-
-In production mode the server will run in a container built with `./server/Dockerfile`.
-and be exposed on port 5500 only to the docker composer internal services within the same network.
-in our case server and client are on the same network "webapp" , hence only the client can communicate with the server, and will do thatthrough the `/api` location. for more locations, its needed to configure them in the `./client/nginx.conf` file.
-
 #### Data-base connection
 
 Data-base connection is handled with ormconfig.json that is located at `./server/ormconfig.json`
@@ -199,16 +137,6 @@ sudo docker-compose --file docker-compose-dev.yml up
 On save changes in client and server, containers will be automatically updated, no need to restart any servers.
 </br>
 
-### Production
-
-To establish production environment, simply run the following command from the root folder.
-
-```bash
-sudo docker-compose up
-```
-
-This will creates build for both server and client, will serve client build with nginx server on port 80 and will communicate with server on port 5500 in the location /api.
-
 ## Good to know
 
 - To drop the use of sudo run the folowing command in your terminal
@@ -219,4 +147,4 @@ sudo usermod -aG docker $USER
 
 - If you are making changes within the dockerfiles you will need to rebuild them, for that add the --build flag to the docker compose up command.
 
-## Enjoy
+## Enjoy 🎉
