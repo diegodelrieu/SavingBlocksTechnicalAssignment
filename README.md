@@ -50,19 +50,14 @@ Make sure you have the below installed on your machine.
 
 ### Quick start
 
-Clone this repo to your local machine
+Clone this template in your local machine
 
-```
-git clone https://github.com/nadavpodjarski/postgres-express-react-typescript-boilerplate.git project-name
-```
-
-Before we run our container lets calm down our editor and npm install dependecies locally.
-For that let's run the following command
+Then install dependencies.
 
 ```bash
 # install server dependencies
 
-cd project-name/server && npm i
+cd ./server && npm i
 
 # instal client dependencies
 
@@ -77,8 +72,6 @@ cd ../ && sudo docker-compose --file docker-compose-dev.yml up
 
 it will be served on `http://localhost:3000`
 
-**Replace project-name with your own**
-
 ## Client
 
 Client has been created with create-react-app and located in `./project-name/client`
@@ -87,21 +80,7 @@ Client has been created with create-react-app and located in `./project-name/cli
 
 In develpoment mode the client will be run in a container built with `./client/Dockerfile.dev` and will be exposed on port 3000, with docker volumes every change thats been saved will be reflected within the running container.
 
-#### Production
-
-In production mode the client build will be created and will run in a container built with `./client/Dockerfile`.
-The client build/static-files will be served with nginx server and will be exposed on port 80.
-
-#### Environment Variables
-
-Enviornment variables are located in `./client/.env` but can be declared into the dockerfile itself under ENV or in the docker compose file under enviornemt property.
-**In order to use docker stack deploy** its needed to use one of the other options and not env_file.
-
-**note that nginx server has a minimalistic configuration**
-
-## Data-base
-
-Postgres data-base is created with an official postgres image which can be found in docker hub https://hub.docker.com/_/postgres
+## Database
 
 Enviornment variables will be located in the docker-compose file.`
 and will contain our database credentials :
@@ -116,26 +95,6 @@ Volumes of our database will be located in `./server/database/data`
 
 > Production volume is located in `./server/data/prod` </br>
 > Development volume is located in `./server/data/dev`
-
-#### Data-base connection
-
-Data-base connection is handled with ormconfig.json that is located at `./server/ormconfig.json`
-and will contain postgres credentials to establish connection to our data-base.
-Thanks to https://github.com/vishnubob/wait-for-it for the wait-for-it.sh script, we can set that the server image will run only after getting confirmation that postgres container is available.
-by that we wont get connection failures due to bad order of docker composing.
-
-## Docker compose
-
-### Development
-
-To establish a development environment, simply run the following command from the project root folder.
-
-```bash
-sudo docker-compose --file docker-compose-dev.yml up
-```
-
-On save changes in client and server, containers will be automatically updated, no need to restart any servers.
-</br>
 
 ## Good to know
 
