@@ -15,7 +15,7 @@ Start by copying this template in a private github repository.
 
 ![image](https://user-images.githubusercontent.com/46749544/160638681-dc3d4209-d3be-4a32-a4df-16766d2a38f8.png)
 
-This template should provide you with a good foundation to complete your task.
+
 
 For this assignment the candidate is expected to complete the following features :
 
@@ -27,6 +27,8 @@ And one of the following:
 - As a user, I can visualize via a line chart the evolution of this wallet's balance.
 
 **Feel free to reuse any existing component to gain time 🏎️**
+
+
 
 **_Extra_**
 If you have time feel free to add any of the following features
