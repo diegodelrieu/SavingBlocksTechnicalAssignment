@@ -40,7 +40,7 @@ Then add `diegodelrieu` as a collaborator to your github repository and add his 
 #### Stack
 
 - React.js
-- Redux
+- TypeScript
 - Node.js
 - Nest.js
 - Postgres
