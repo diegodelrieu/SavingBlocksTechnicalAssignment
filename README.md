@@ -46,13 +46,6 @@ Then add `diegodelrieu` as a collaborator to your github repository and add his 
 - Postgres
 - Docker
 
-### Prerequisites
-
-Make sure you have the below installed on your machine.
-
-- [x] **Docker** : https://docs.docker.com/engine/install/
-- [x] **Docker-Compose** : https://docs.docker.com/compose/install/
-- [x] **Node** : https://nodejs.org/en/
 
 ### Quick start
 
