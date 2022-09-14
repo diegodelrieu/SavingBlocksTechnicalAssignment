@@ -97,19 +97,4 @@ POSTGRES_PASSWORD=admin
 POSTGRES_DB=pern_db
 ```
 
-Volumes of our database will be located in `./server/database/data`
-
-> Production volume is located in `./server/data/prod` </br>
-> Development volume is located in `./server/data/dev`
-
-## Good to know
-
-- To drop the use of sudo run the folowing command in your terminal
-
-```bash
-sudo usermod -aG docker $USER
-```
-
-- If you are making changes within the dockerfiles you will need to rebuild them, for that add the --build flag to the docker compose up command.
-
 ## Enjoy 🎉
