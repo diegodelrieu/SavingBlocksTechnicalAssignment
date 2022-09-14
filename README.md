@@ -21,7 +21,10 @@ For this assignment the candidate is expected to complete the following features
 
 - As a user, I should be able to a find visual interface that allows me to connect to a blockchain (of your choice) through a crypto web wallet (you can use metamask or walletconect for instance)
 
+And one of the following: 
+
 - As a user, I should find a form in which I am able to create a transaction on that blockchain to send funds to an address of my choice and add a note for this transaction (stored in the db along with the transaction hash from the blockchain)
+- As a user, I can visualize via a line chart the evolution of this wallet's balance.
 
 **Feel free to reuse any existing component to gain time 🏎️**
 
