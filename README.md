@@ -2,7 +2,7 @@
 
 ### 📕 Instructions
 
-This is a boilerplate template to get you started on the SavingBlocks technical assignment.
+This is a boilerplate template to get you started on the SavingBlocks technical assignment. Feel free to make all necessary changes to the boilerplate, including updating the dependencies.
 
 **You are free not to use this boilerplate and build this from scratch using a stack of your choice. If you do, please still follow the delivery instructions**
 
