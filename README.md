@@ -1,12 +1,14 @@
-## 5% Technical assignment
+## SavingBlocks Technical assignment
 
 ### 📕 Instructions
 
-This is a boilerplate template to get you started on the 5% technical assignment.
+This is a boilerplate template to get you started on the SavingBlocks technical assignment.
 
 You can read below a number of informations on how to get started with this template.
 
 ### Requirements
+
+**You are free not to use this boilerplate and build this from scratch using a stack of your choice !**
 
 Start by copying this template in a private github repository.
 
